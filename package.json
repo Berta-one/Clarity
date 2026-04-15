@@ -6,7 +6,13 @@
     "type": "git",
     "url": "git+https://github.com/luigipascal/Clarity.git"
   },
-  "keywords": ["ai", "thinking", "productivity", "planning", "clarity"],
+  "keywords": [
+    "ai",
+    "thinking",
+    "productivity",
+    "planning",
+    "clarity"
+  ],
   "author": "Luigi Pascal <luigi@rondanini.com>",
   "license": "MIT",
   "bugs": {
@@ -17,12 +23,13 @@
   "scripts": {
     "dev": "vercel dev",
     "build": "npm ci",
-    "start": "vercel dev",
+    "start": "serve .",
     "deploy": "vercel --prod"
   },
   "dependencies": {
     "airtable": "^0.12.2",
     "dotenv": "^16.3.1",
+    "serve": "^14.2.6",
     "stripe": "^14.10.0"
   },
   "devDependencies": {

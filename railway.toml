@@ -1,0 +1,7 @@
+# Railway: serve static HTML + assets from repo root (clarity.berta.one).
+# The `serve` package respects the PORT env var automatically.
+[build]
+builder = "nixpacks"
+
+[deploy]
+startCommand = "npm start"
